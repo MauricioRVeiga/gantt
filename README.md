@@ -1,4 +1,13 @@
 ```mermaid
+graph TD
+    subgraph Matriz
+A1["C8"]:::branco --> A2["C20"]:::AMARELO --> A3["v50"]:::laranja --> A4["v100"]:::vermelho
+
+end
+```
+
+
+```mermaid
 flowchart TD
     A(["Inicio"])
     A --> B{"Faça uma escolha"}
