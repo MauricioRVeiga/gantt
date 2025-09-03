@@ -6,6 +6,15 @@ A1["C8"]:::branco --> A2["C20"]:::AMARELO --> A3["v50"]:::laranja --> A4["v100"]
 end
 ```
 
+```mermaid
+graph TD
+    subgraph Matriz
+A1["C8"]:::branco --> A2["C20"]:::AMARELO --> A3["v50"]:::laranja --> A4["v100"]:::vermelho
+
+end
+classDef branco fill:#fff, stroke:#000, stroke-width:1px;
+```
+
 
 ```mermaid
 flowchart TD
